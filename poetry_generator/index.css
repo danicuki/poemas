@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 1rem;
+  color: #555;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 40%;
+}
+
+.right {
+  float: left;
+  width: 60%;
+  height: 20rem;
+  border: 2px dashed #999;
+  overflow: auto;
+}
+
+input[type=number] {
+  width: 3rem;
+}
+
+.poetry-content {
+  padding: 1rem;
+}
